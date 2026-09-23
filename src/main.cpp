@@ -15,7 +15,7 @@ int complete_status;
 void print_help(){
 printf("Using calculator rules\n");
 printf("Options:\n -f integer (first number)\n -s integer (second number, do not need for factorial)\n");
-printf("-o operation (+, -, *, /, ^, !)\n -h (show help)\n");
+printf(" -o operation (+, -, *, /, ^, !)\n -h (show help)\n");
 }
 
 int makeCalculate(struct Task* task){
